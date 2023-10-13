@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="js/login.js" type="module"></script>
+</head>
+<body>
+    <div class="min-h-screen flex items-center justify-center">
+        <form id="login-form" class="border flex flex-col gap-4 w-[350px] p-8">
+            <h1 class="font-semibold text-lg">Login</h1>
+            <input type="email" required class="border rounded p-2" />
+            <input type="password" required class="border rounded p-2" />
+            <button class="w-fit bg-blue-500 px-6 py-2 rounded text-white">login</button>
+            <p id="result"></p>
+        </form>
+    </div>
+</body>
+</html>
